@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+   background-color: grey;
+}
+
+.container {
+   height: 950px;
+   width: 700px;
+   background-color: transparent;
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.top {
+   height: 80px;
+   width: 90px;
+   background-color: red;
+   
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   
+   border-bottom: 5px solid black;
+   margin-top: 80px;
+   
+   
+   
+  
+   margin-left: 45%;
+   
+}
+
+.body {
+   height: 700px;
+   width: 200px;
+   background-color: orange;
+   margin-left: 37%;
+   border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border: 3px solid black;
+   
+   box-shadow: 0 0 10px black,
+   0 0 20px black;
+   
+}
+
+
+.branding {
+   height: 100px;
+   width: 80%;
+   background-color: white;
+   border-radius: 20px;
+   margin-top: -220%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: black;
+}
+
+.branding a {
+   font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+   
+   
+   
+.branding p {
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.label {
+   height: 200px;
+   width:  100%;
+   background-color: black;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 30px;
+}
+
+.label a {
+   font-size: 30px;
+   color: white;
+}
+
+.label p a {
+   font-size: 10px;
+   font-weight: 600;
+}
+
+.label a.test {
+   font-size: 10px;
+   font-weight: 600;
+}
+
+/*Pwede na to haha*/
